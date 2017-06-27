@@ -1,6 +1,6 @@
 # Intro
 
-Putting the fun in FaunaDB client Python API/lib ...
+Putting the fun in the FaunaDB client functional API ...
 
 ## MO
 
@@ -10,7 +10,7 @@ But Python does not really do justice to the FaunaDB fuctional style API aka it 
 
 My first inclination was to start a small proj to hackup a quick Scheme based one.
 
-But But But it then hit me that maybe this is perfect for Hy the lispy Python. 
+ButButBut it then hit me that maybe this is perfect for Hy the lispy Python. 
 
 I've not used Hy before and was keen to try it so double rainbow here.
 
@@ -18,14 +18,16 @@ I've not used Hy before and was keen to try it so double rainbow here.
 
 ### FaunaDB python
 
+This is the basic style I got from the FaunaDB tutorial.
+
 ```python
-print  get/match by title'
+# get/match by title'
 rt = client.query(
     q.get(
-     q.match(
-      q.index(idx),
-      title
-     )
+        q.match(
+            q.index(idx),
+            title
+        )
     ))
 ```
 
@@ -33,15 +35,15 @@ rt = client.query(
 
 Equiv Hy code -- much prettier eh?
 
-And using the fancy threading macro (ala Clojure) probably makes it more readable to boot.
-
 ```hy
 (setv rt
-    (-> (q.index idx)
-        (q.match string)
-        (q.get)
-	    (self.client.query)))
+      (-> (q.index idx)
+          (q.match string)
+          (q.get)
+          (self.client.query)))
 ```
+
+And using the fancy threading macro (ala Clojure) probably makes it more readable to boot.
 
 ## Notes
 
