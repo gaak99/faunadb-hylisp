@@ -38,7 +38,7 @@ Equiv Hy code -- much prettier eh?
 ```hy
 (setv rt
       (-> (q.index idx)
-          (q.match string)
+          (q.match title)
           (q.get)
           (self.client.query)))
 ```
