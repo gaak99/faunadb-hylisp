@@ -47,7 +47,7 @@ And using the fancy threading macro (ala Clojure) probably makes it more readabl
 
 1. This just a basic Proof of Concept and is not a complete set of FaunaDB ops in Hy.
 2. Thus minimally tested.
-3. The FdbOps class should be a child class of a generic db clas but for this demo ok.
+3. The FdbOps class should be a child class of a generic db class but for this demo ok.
 
 ## Run demo
 ```bash
