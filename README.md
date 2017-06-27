@@ -22,13 +22,13 @@ This is the basic style I got from the FaunaDB tutorial.
 
 ```python
 # get/match by title'
-rt = client.query(
-    q.get(
-        q.match(
-            q.index(idx),
-            title
-        )
-    ))
+    client.query(
+        q.get(
+            q.match(
+                q.index(idx),
+                title
+            )
+        ))
 ```
 
 ### Hy
@@ -36,11 +36,10 @@ rt = client.query(
 Equiv Hy code -- much prettier eh?
 
 ```hy
-(setv rt
       (-> (q.index idx)
           (q.match title)
           (q.get)
-          (self.client.query)))
+          (self.client.query))
 ```
 
 And using the fancy threading macro (ala Clojure) probably makes it more readable to boot.
