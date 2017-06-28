@@ -6,7 +6,7 @@ import os
 import ConfigParser
 import hy
 
-from fdbhy import FdbOps
+from fdbops import FdbOps
 
 try:
     dbname = sys.argv[1]

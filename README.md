@@ -53,12 +53,12 @@ And using the fancy threading macro (ala Clojure) probably makes it more readabl
 
 ## Run demo
 ```bash
-python faunadb-hylisp/fdbhy-demo.py  <dbname> <dbclass>
+python faunadb-hylisp/fdbops-demo.py  <dbname> <dbclass>
 ```
 
 ### Sample run
 ```bash
-python faunadb-hylisp/fdbhy-demo.py  dbhy3 dishes100
+python faunadb-hylisp/fdbops-demo.py  dbhy3 dishes100
 Get dbname ...
 dbhy3
 Creat db ...
