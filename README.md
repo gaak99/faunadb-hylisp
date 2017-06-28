@@ -1,14 +1,16 @@
 # Intro
 
-Putting the fun in the FaunaDB client functional API ...
+Putting the fun in the functional FaunaDB client API ...
 
 ## MO
 
-I'm using the new and kewl FaunaDB )Python lib) in a small personal project.
+I'm using the new&kewl FaunaDB (Python lib) in a small personal project.
 
 But Python does not really do justice to the FaunaDB fuctional style API aka it really SHOUTS use a Lisp.
 
 My first inclination was to start a small proj to hackup a quick Scheme based one.
+
+(but was'nt quite sure I wanted to shave that yak)
 
 ButButBut it then hit me that maybe this is perfect for Hy the lispy Python. 
 
