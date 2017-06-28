@@ -21,7 +21,7 @@ And I've not used Hy before and was keen to try it so double rainbow here.
 This is the basic style I got from the FaunaDB tutorial.
 
 ```python
-# get/match by title'
+    # get/match by title
     client.query(
         q.get(
             q.match(
