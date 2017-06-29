@@ -23,7 +23,6 @@ And I've not used Hy before and was keen to try it so double rainbow here.
 This is the basic style I got from the FaunaDB tutorial.
 
 ```python
-    # get/match by title
     client.query(
         q.get(
             q.match(
@@ -54,6 +53,18 @@ And using the fancy threading macro (ala Clojure) probably makes it more readabl
 4. My first Hy and FaunaDB prog so who knows how idiomatic it is.
 
 ## Run demo
+### Prereqs
+1. Install Hy and FaunaDB pkgs.
+```bash
+pip install hy && pip install faunadb
+```
+2. Add Faunadb admin key to '~/.fdbhyconf'.
+```bash
+[misc]
+admin_key=<yourkey>
+```
+
+### Run it
 ```bash
 python faunadb-hylisp/fdbops-demo.py  <dbname> <dbclass>
 ```
