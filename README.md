@@ -108,3 +108,11 @@ Get entrys by tag in db ...
 debug:  get_by_tag: begin
 {u'data': [Ref(u'classes/dishes100/170123027939328517'), Ref(u'classes/dishes100/170132688033808900'), Ref(u'classes/dishes100/170132903383007747'), Ref(u'classes/dishes100/170132957929931269'), Ref(u'classes/dishes100/170213319484899854')]}
 ```
+
+## License
+MIT. See LICENSE file for full text.
+
+## Copyright
+Copyright (c) 2017 Glenn Barry (gmail: gaak99)
+
+
