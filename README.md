@@ -2,7 +2,7 @@
 
 Putting the fun in the functional FaunaDB client API ...
 
-## MO
+## Modus Operandi
 
 I'm using the new&kewl FaunaDB (Python lib) in a small personal project.
 
@@ -10,13 +10,13 @@ But Python does not really do justice to the FaunaDB fuctional style API aka it 
 
 My first inclination was to start a small proj to hackup a quick Scheme based one.
 
-(but was'nt quite sure I wanted to shave that yak)
+(but wasn't quite sure I wanted to shave that yak)
 
-ButButBut it then hit me that maybe this is perfect for Hy the lispy Python. 
+But-but-but it then hit me that maybe this is perfect for Hy -- the lispy Python. 
 
 And I've not used Hy before and was keen to try it so double rainbow here.
 
-## Hy/Lisp bene
+## Hy/Lisp advantage
 
 ### FaunaDB python
 
