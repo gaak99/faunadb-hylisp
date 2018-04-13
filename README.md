@@ -1,6 +1,6 @@
 # Intro
 
-I'm using the new&kewl FaunaDB (Python client lib and freemium svc) in a small personal project. But Python does not really do justice to the FaunaDB fuctional style API aka it really SHOUTS use a Lisp.
+I'm using the new&kewl FaunaDB Python client lib and freemium svc in a small side project. But Python does not really do justice to the FaunaDB fuctional style API aka it really SHOUTS use a Lisp.
 
 My first inclination was to start a small proj to hackup a quick Scheme based one -- but wasn't quite sure I wanted to shave that yak.
 
