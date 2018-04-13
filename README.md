@@ -4,17 +4,11 @@ Putting the fun in the functional FaunaDB client API ...
 
 ## Modus Operandi
 
-I'm using the new&kewl FaunaDB (Python lib) in a small personal project.
+I'm using the new&kewl FaunaDB (Python client lib and freemium svc) in a small personal project. But Python does not really do justice to the FaunaDB fuctional style API aka it really SHOUTS use a Lisp.
 
-But Python does not really do justice to the FaunaDB fuctional style API aka it really SHOUTS use a Lisp.
+My first inclination was to start a small proj to hackup a quick Scheme based one -- but wasn't quite sure I wanted to shave that yak.
 
-My first inclination was to start a small proj to hackup a quick Scheme based one.
-
-(but wasn't quite sure I wanted to shave that yak)
-
-But-but-but it then hit me that maybe this is perfect for Hy -- the lispy Python. 
-
-And I've not used Hy before and was keen to try it so double rainbow here.
+But-but-but it then hit me that maybe this is perfect for Hy -- the lispy Python. And I've not used Hy before and was keen to try it so double rainbow here.
 
 ## Hy/Lisp advantage
 
